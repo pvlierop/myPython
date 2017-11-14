@@ -1,6 +1,9 @@
+
+import helloworld
+
 print("hello world")
 
-def hello(text):
-    print(text)
+hwobj = helloworld.hello()
 
-hello("world")
+hwobj.hello("paul")
+hwobj.hello2("paul","vanlierop")
