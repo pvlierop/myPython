@@ -1,6 +1,8 @@
 ###
 class hello:
 
+    def  __init__(self):
+        self.description = "This is the hello world class"
 
     def hello(self, text):
         print(text)
